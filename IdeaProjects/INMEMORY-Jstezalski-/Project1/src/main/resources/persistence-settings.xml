@@ -1,4 +1,0 @@
-<persistence keyspace="product" table="product">
-    <keyPersistence class="java.lang.String" strategy="PRIMITIVE" column="uniq_id"/>
-    <valuePersistence class="com.ignite.Project1.model.Product" strategy="POJO"/>
-</persistence>
