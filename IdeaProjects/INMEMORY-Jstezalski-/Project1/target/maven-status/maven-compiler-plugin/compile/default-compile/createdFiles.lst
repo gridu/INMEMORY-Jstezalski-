@@ -1,0 +1,7 @@
+com/ignite/Project1/model/Product.class
+com/ignite/Project1/Project1Application.class
+com/ignite/Project1/config/IgniteConfig.class
+com/ignite/Project1/config/SwaggerConfig.class
+com/ignite/Project1/controller/ProductController.class
+com/ignite/Project1/service/ProductService.class
+com/ignite/Project1/exception/ProductNotFoundException.class

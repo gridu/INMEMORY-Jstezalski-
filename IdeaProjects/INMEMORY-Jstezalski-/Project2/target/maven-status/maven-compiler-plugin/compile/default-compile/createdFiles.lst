@@ -1,0 +1,11 @@
+com/ignite/Project2/config/IgniteConfig.class
+com/ignite/Project2/compute/ComputeJob.class
+com/ignite/Project2/model/CalculationResult.class
+com/ignite/Project2/model/common/PriceRange.class
+com/ignite/Project2/model/CalculationResult$CalculationResultBuilder.class
+com/ignite/Project2/service/ProductService.class
+com/ignite/Project2/service/DataService.class
+com/ignite/Project2/model/Product.class
+com/ignite/Project2/service/ComputeService.class
+com/ignite/Project2/CountingApplication.class
+com/ignite/Project2/compute/ComputeTask.class
