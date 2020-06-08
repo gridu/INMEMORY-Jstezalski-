@@ -31,9 +31,14 @@ public class ProductService {
         return product;
     }
 
-    public Product updateListPrice(String uniq_id, Product product) {
+    public Product updateListPrice(String uniq_id, String listPrice) {
         Product productToUpdate = productCache.get(uniq_id);
-        productToUpdate.setList_price(product.getList_price());
+
+        if (productToUpdate == null) {
+            throw new ProductNotFoundException("There is no product with id: " + uniq_id);
+        }
+
+        productToUpdate.setList_price(listPrice);
         productCache.put(uniq_id, productToUpdate);
         return productToUpdate;
     }

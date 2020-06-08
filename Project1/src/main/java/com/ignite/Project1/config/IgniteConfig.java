@@ -44,7 +44,7 @@ public class IgniteConfig {
     }
 
     @Bean
-    public CacheConfiguration cacheConfiguration() {
+    public CacheConfiguration<String, Product> cacheConfiguration() {
         CacheConfiguration<String, Product> cacheConfiguration = new CacheConfiguration<>(CACHE_NAME);
 
         cacheConfiguration.setCacheStoreFactory(cacheStoreFactory());

@@ -19,8 +19,9 @@ public class ProductController {
     }
 
     @PutMapping("/{uniq_id}")
-    public Product updateListPrice(@PathVariable String uniq_id, @RequestBody Product product) {
-        return service.updateListPrice(uniq_id, product);
+    public Product updateListPrice(@PathVariable String uniq_id,
+                                   @RequestParam String listPrice) {
+        return service.updateListPrice(uniq_id, listPrice);
     }
 
 }
