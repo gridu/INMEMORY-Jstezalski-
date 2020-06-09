@@ -5,7 +5,7 @@ services:
   ignite-1:
     container_name: ignite-1
     hostname: ignite-1
-    image: apacheignite/ignite
+    image: apacheignite/ignite:2.7.6
     ports:
       - 47500:47500
       - 47100:47100
@@ -18,7 +18,7 @@ services:
   ignite-2:
     container_name: ignite-2
     hostname: ignite-2
-    image: apacheignite/ignite
+    image: apacheignite/ignite:2.7.6
     volumes:
       - ./ignite-config.xml:/config/ignite-config.xml
     environment:
@@ -27,7 +27,7 @@ services:
   ignite-3:
     container_name: ignite-3
     hostname: ignite-3
-    image: apacheignite/ignite
+    image: apacheignite/ignite:2.7.6
     volumes:
       - ./ignite-config.xml:/config/ignite-config.xml
     environment:
